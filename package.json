@@ -1,0 +1,28 @@
+{
+  "name": "dsa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --fix ./",
+    "start:tree": "ts-node ./trees/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VeraLaureano/DSA.git"
+  },
+  "keywords": [],
+  "author": "VeraLaureano <laureanoivangerardovera@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VeraLaureano/DSA/issues"
+  },
+  "homepage": "https://github.com/VeraLaureano/DSA#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
+    "eslint": "^8.49.0",
+    "ts-node": "^10.9.1"
+  }
+}
