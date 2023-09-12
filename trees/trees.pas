@@ -147,3 +147,29 @@ begin
     end
     else 
         busquedaDicotomica := -1;
+end;
+
+function sumarArray (arr: array; index, lim: integer): integer;
+begin
+    if (lim < index) then
+        sumarArray := 0
+    else
+        sumarArray := array[index] + sumarArray(arr, index + 1)
+end;
+
+function generarArbol(l: lista): arbol;
+var 
+    actual: lista;
+    a: arbol;
+Begin
+    a := nil;
+    actual := l;
+   
+    while (l <> nil) do
+    begin
+        insertar(a, actual^.dato);
+        actual := actual^.sig
+    end
+
+    generarArbol := a
+end;
