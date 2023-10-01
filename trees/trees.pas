@@ -173,3 +173,20 @@ Begin
 
     generarArbol := a
 end;
+
+function Minimo(Lista: ^Nodo): integer;
+var
+  MinResto: integer;
+begin
+  if Lista = nil then
+    Minimo := 0
+  else if Lista^.Sig = nil then
+    Minimo := Lista^.Datos
+  else begin
+    MinResto := Minimo(Lista^.Sig);
+    if Lista^.Datos < MinResto then
+      Minimo := Lista^.Datos
+    else
+      Minimo := MinResto;
+  end;
+end;
