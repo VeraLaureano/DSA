@@ -1,6 +1,6 @@
 type
-    TreeNodePtr = ^TreeNode;
-    TreeNode = record
-        data: integer;
-        left, right: TreeNodePtr;
+    tree = ^node;
+    node = record
+        val: integer;
+        left, right: tree;
     end;
