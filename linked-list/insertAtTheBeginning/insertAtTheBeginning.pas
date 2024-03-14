@@ -4,6 +4,6 @@ var
 begin
     new(aux);
     aux^.data := data;
-    aux^.sig := actual;
+    aux^.next := actual;
     actual := aux;
 end;

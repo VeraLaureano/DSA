@@ -10,8 +10,7 @@ export class Node {
 
 export class LinkedList {
   head: Node | null
-  insertAtTheBegining: (data: number) => void
-  
+
   constructor() {
     this.head = null
   }

@@ -3,7 +3,7 @@ begin
     if (node = nil or node^.val = value) then
         search := node
     else if (value < node^.val) then
-        search(node^.hi, value)
+        search(node^.left, value)
     else 
-        search(node^.hd, value)
+        search(node^.left, value)
 end;
