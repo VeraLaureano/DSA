@@ -2,7 +2,7 @@ import { LinkedList, Node } from '../type'
 
 export class LinkedListWithInsertE extends LinkedList {
   insertAtTheEnd(data: number): void {
-    const newNode = new Node(data);
+    const newNode = new Node(data)
 
     if (!this.head)
       this.head = newNode

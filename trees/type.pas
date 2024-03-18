@@ -1,6 +1,6 @@
 type
-    tree = ^node;
-    node = record
-        val: integer;
-        left, right: tree;
+    arbol = ^nodo;
+    nodo = record
+        valor: integer;
+        izquierdo, derecho: arbol;
     end;
