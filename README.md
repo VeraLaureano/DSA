@@ -1,8 +1,12 @@
 # **Data Structures and Algorithms**
 
 ### Linked List
+- [Delete Element](https://github.com/VeraLaureano/DSA/tree/main/linked-list/borrarElemento 'View Algorithm')
+- [Search Element](https://github.com/VeraLaureano/DSA/tree/main/linked-list/buscar 'View Algorithm')
 - [Insert at the Beginning](https://github.com/VeraLaureano/DSA/tree/main/linked-list/insertAtTheBeginning 'View Algorithm')
 - [Insert at the End](https://github.com/VeraLaureano/DSA/tree/main/linked-list/insertAtTheEnd 'View Algorithm')
+- [Insert Ordered](https://github.com/VeraLaureano/DSA/tree/main/linked-list/insertarOrdenado 'View Algorithm')
+- [Travel](https://github.com/VeraLaureano/DSA/tree/main/linked-list/recorrerLista 'View Algorithm')
 
 ### Binary Trees
 - [Create Tree root](https://github.com/VeraLaureano/DSA/tree/main/trees/crearNodo 'View Algorithm')
@@ -15,5 +19,7 @@
 - [Search Element](https://github.com/VeraLaureano/DSA/tree/main/trees/buscar 'View Algorithm')
 - [Delete Element](https://github.com/VeraLaureano/DSA/tree/main/trees/borrarElemento 'View Algorithm')
 - [See Values in Range](https://github.com/VeraLaureano/DSA/tree/main/trees/verValoresEnRango 'View Algorithm')
+
+### Stack
 
 ### [**Util Website 💻**](https://aiqlou.vercel.app/)
