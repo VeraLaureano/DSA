@@ -4,9 +4,8 @@ struct Nodo {
 };
 struct Nodo* stack = NULL;
 
-int leerSuperior(struct Nodo* stack) {
+void leerSuperior(struct Nodo** stack) {
   if (stack != NULL) {
-    return stack->dato;
+    return (*stack)->dato;
   }
-  return -1;
 }

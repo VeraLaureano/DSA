@@ -4,10 +4,11 @@ struct Nodo {
 };
 struct Nodo* stack = NULL;
 
-void push(struct Nodo** stack, int dato) {
+struct Nodo* crearNodo(int dato) {
   struct Nodo* nuevoNodo = (struct Nodo*)malloc(sizeof(struct Nodo));
   
   nuevoNodo->dato = dato;
-  nuevoNodo->siguiente = *stack;
-  *stack = nuevoNodo;
+  nuevoNodo->siguiente = NULL;
+
+  return nuevoNodo
 }

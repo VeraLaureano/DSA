@@ -4,6 +4,6 @@ struct Nodo {
 };
 struct Nodo* stack = NULL;
 
-int estaVacia(struct Nodo* stack) {
-  return (stack == NULL)
+int estaVacia(struct Nodo** stack) {
+  return ((*stack) == NULL);
 }

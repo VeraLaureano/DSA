@@ -8,6 +8,15 @@
 - [Insert Ordered](https://github.com/VeraLaureano/DSA/tree/main/linked-list/insertarOrdenado 'View Algorithm')
 - [Travel](https://github.com/VeraLaureano/DSA/tree/main/linked-list/recorrerLista 'View Algorithm')
 
+### Stack
+- [Clean Stack](https://github.com/VeraLaureano/DSA/tree/main/stack/vaciarPila 'View Algorithm')
+- [POP](https://github.com/VeraLaureano/DSA/tree/main/stack/pop 'View Algorithm')
+- [PUSH](https://github.com/VeraLaureano/DSA/tree/main/stack/push 'View Algorithm')
+- [Stack Is Empty](https://github.com/VeraLaureano/DSA/tree/main/stack/estaVacia 'View Algorithm')
+- [Peek Top](https://github.com/VeraLaureano/DSA/tree/main/stack/leerSuperior 'View Algorithm')
+
+### Queue
+
 ### Binary Trees
 - [Create Tree root](https://github.com/VeraLaureano/DSA/tree/main/trees/crearNodo 'View Algorithm')
 - [Pre Order Traversal](https://github.com/VeraLaureano/DSA/tree/main/trees/preOrder 'View Algorith')
@@ -19,12 +28,5 @@
 - [Search Element](https://github.com/VeraLaureano/DSA/tree/main/trees/buscar 'View Algorithm')
 - [Delete Element](https://github.com/VeraLaureano/DSA/tree/main/trees/borrarElemento 'View Algorithm')
 - [See Values in Range](https://github.com/VeraLaureano/DSA/tree/main/trees/verValoresEnRango 'View Algorithm')
-
-### Stack
-- [Clean Stack](https://github.com/VeraLaureano/DSA/tree/main/stack/vaciarPila 'View Algorithm')
-- [POP](https://github.com/VeraLaureano/DSA/tree/main/stack/pop 'View Algorithm')
-- [PUSH](https://github.com/VeraLaureano/DSA/tree/main/stack/push 'View Algorithm')
-- [Stack Is Empty](https://github.com/VeraLaureano/DSA/tree/main/stack/estaVacia 'View Algorithm')
-- [Peek Top](https://github.com/VeraLaureano/DSA/tree/main/stack/leerSuperior 'View Algorithm')
 
 ### [**Util Website 💻**](https://aiqlou.vercel.app/)

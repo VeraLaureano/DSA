@@ -4,10 +4,11 @@ struct Nodo {
 };
 struct Nodo* stack = NULL;
 
-void pop(struct Nodo* stack) {
+void pop(struct Nodo** stack) {
   if (stack != NULL) {
-    struct Nodo* temp = stack;
-    stack = stack->siguiente;
+    struct Nodo* temp = *stack;
+    *stack = (*stack)->siguiente;
+
     free(temp);
   }
 }

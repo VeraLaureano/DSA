@@ -4,10 +4,10 @@ struct Nodo {
 };
 struct Nodo* stack = NULL;
 
-void vaciarPila(struct Nodo* stack) {
+void vaciarPila(struct Nodo** stack) {
   while (stack != NULL) {
-    struct Nodo* temp = stack;
-    stack = stack->siguiente;
+    struct Nodo* temp = *stack;
+    *stack = (*stack)->siguiente;
     free(temp);
   }
 }
