@@ -9,43 +9,43 @@ begin
     begin
         // Si el valor es menor que el valor del nodo actual, realizamos la búsqueda en el subárbol izquierdo
         if (valor < nodo^.valor) then
-            borrarElemento(nodo^.izquierdo, valor)
+            borrarElemento(nodo^.hi, valor)
         // Si el valor es mayor que el valor del nodo actual, realizamos la búsqueda en el subárbol derecho
         else if (valor > nodo^.valor) then
-            borrarElemento(nodo^.derecho, valor)
+            borrarElemento(nodo^.hd, valor)
         else
         begin
             // Si el nodo actual tiene ambos subárboles nulos, lo eliminamos y establecemos el nodo como nulo
-            if (nodo^.izquierdo = nil) and (nodo^.derecho = nil) then
+            if (nodo^.hi = nil) and (nodo^.hd = nil) then
             begin
                 dispose(nodo);
                 nodo := nil;
             end 
             // Si el subárbol izquierdo es nulo, reemplazamos el nodo actual por su subárbol derecho
-            else if (nodo^.izquierdo = nil) then
+            else if (nodo^.hi = nil) then
             begin
                 aux := nodo;
-                nodo := nodo^.derecho;
+                nodo := nodo^.hd;
                 dispose(aux);
             end
             // Si el subárbol derecho es nulo, reemplazamos el nodo actual por su subárbol izquierdo
-            else if (nodo^.derecho = nil) then
+            else if (nodo^.hd = nil) then
             begin
                 aux := nodo;
-                nodo := nodo^.izquierdo;
+                nodo := nodo^.hi;
                 dispose(aux);
             end
             else
             begin
                 // Si el nodo actual tiene ambos subárboles no nulos, encontramos el sucesor inmediato (mínimo) en el subárbol derecho
                 aux := nodo;
-                nodo := nodo^.derecho;
-                while (aux^.izquierdo <> nil) do
-                    aux := aux^.izquierdo;
+                nodo := nodo^.hd;
+                while (aux^.hi <> nil) do
+                    aux := aux^.hi;
                 // Reemplazamos el valor del nodo actual por el valor del sucesor inmediato
                 nodo^.valor := aux^.valor;
                 // Luego, llamamos recursivamente a "borrarElemento" para eliminar el sucesor inmediato
-                borrarElemento(nodo^.derecho, nodo^.valor);
+                borrarElemento(nodo^.hd, nodo^.valor);
             end;
         end;
     end;

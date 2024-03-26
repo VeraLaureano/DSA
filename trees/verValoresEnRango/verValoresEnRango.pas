@@ -7,10 +7,16 @@ begin
     begin
         // Si el valor del nodo actual está dentro del rango [min, max], lo imprimimos
         if (nodo^.valor >= min) and (nodo^.valor <= max) then
-            writeln(nodo^.valor);
-        // Luego, llamamos recursivamente a "verValoresEnRango" para el subárbol izquierdo
-        verValoresEnRango(nodo^.izquierdo, min, max);
-        // Finalmente, llamamos recursivamente a "verValoresEnRango" para el subárbol derecho
-        verValoresEnRango(nodo^.derecho, min, max)
-    end
+        begin
+            writeln(nodo^.valor);   
+            // Luego, llamamos recursivamente a "verValoresEnRango" para el subárbol izquierdo
+            verValoresEnRango(nodo^.hi, min, max);
+            // Finalmente, llamamos recursivamente a "verValoresEnRango" para el subárbol derecho
+            verValoresEnRango(nodo^.hd, min, max)
+        end;
+        else if (nodo^.valor > max) then
+            verValoresEnRango(nodo^.hi, min, max);
+        else if (nodo^.valor < min) then
+            verValoresEnRango(nodo^.hd, min, max);
+    end;
 end;

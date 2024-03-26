@@ -1,6 +1,6 @@
 type 
-    list = ^node;
-    node = record
-        data: integer;
-        next: list;
+    lista = ^nodo;
+    nodo = record
+        dato: integer;
+        sig: lista;
     end; 
