@@ -21,5 +21,10 @@
 - [See Values in Range](https://github.com/VeraLaureano/DSA/tree/main/trees/verValoresEnRango 'View Algorithm')
 
 ### Stack
+- [Clean Stack](https://github.com/VeraLaureano/DSA/tree/main/stack/vaciarPila 'View Algorithm')
+- [POP](https://github.com/VeraLaureano/DSA/tree/main/stack/pop 'View Algorithm')
+- [PUSH](https://github.com/VeraLaureano/DSA/tree/main/stack/push 'View Algorithm')
+- [Stack Is Empty](https://github.com/VeraLaureano/DSA/tree/main/stack/estaVacia 'View Algorithm')
+- [Peek Top](https://github.com/VeraLaureano/DSA/tree/main/stack/leerSuperior 'View Algorithm')
 
 ### [**Util Website 💻**](https://aiqlou.vercel.app/)

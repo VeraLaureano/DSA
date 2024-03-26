@@ -25,6 +25,3 @@ begin
         nue^.sig := act;
     end;
 end;
-
-^
-<>
