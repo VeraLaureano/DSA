@@ -3,7 +3,7 @@ struct Nodo {
   struct Nodo* siguiente;
 };
 
-struct queue {
+struct Queue {
   struct Nodo *primero, *ultimo;
 };
 

@@ -3,20 +3,18 @@ struct Nodo {
   struct Nodo* siguiente;
 };
 
-struct queue {
+struct Queue {
   struct Nodo *primero, *ultimo;
 };
 
-void dequeue(struct queue* cola) {
-  if (cola->primero == NULL) {
-    printf("La cola esta vacia.\n");
-  }
+void deQueue(struct Queue** cola) {
+  if ((*cola)->primero == NULL) 
+    return;
 
-  struct Nodo* temp = cola->primero;
-  cola->primero = cola->primero->siguiente;
-  free(temp);
+  struct Nodo* borrar = (*cola)->primero;
+  (*cola)->primero = borrar->siguiente;
+  free(borrar);
 
-  if (cola->primero == NULL) {
-    cola->ultimo = NULL;
-  }
+  if ((*cola)->primero == NULL)
+    (*cola)->ultimo = NULL;
 }

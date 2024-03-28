@@ -3,22 +3,18 @@ struct Nodo {
   struct Nodo* siguiente;
 };
 
-struct queue {
+struct Queue {
   struct Nodo *primero, *ultimo;
 };
 
-void enqueue(struct queue* cola, int dato) {
-  struct Nodo* nuevoNodo = (struct Nodo*)malloc(sizeof(struct Nodo));
+void enQueue(struct Queue** cola, int dato) {
+  struct Nodo* nuevoNodo = crearNodo(dato);
 
-  nuevoNodo->dato = dato;
-  nuevoNodo->siguiente = NULL;
-
-  if (cola->ultimo == NULL) {
-    cola->primero = nuevoNodo;
-    cola->ultimo = nuevoNodo;
+  if ((*cola)->ultimo == NULL) {
+    (*cola)->primero =(*cola)->ultimo = nuevoNodo;
   } 
   else {
-    cola->ultimo->siguiente = nuevoNodo;
-    cola->ultimo = nuevoNodo;
+    (*cola)->ultimo->siguiente = nuevoNodo;
+    (*cola)->ultimo = nuevoNodo;
   }
 }

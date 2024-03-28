@@ -7,10 +7,9 @@ struct Queue {
   struct Nodo *primero, *ultimo;
 };
 
-int peek(struct Queue** cola) {
-  if ((*cola)->primero == NULL) {
+int front(struct Queue** cola) {
+  if ((*cola)->primero == NULL) 
     return -1;
-  }
 
-  return cola->primero->dato;
+  return (*cola)->primero->dato;
 }

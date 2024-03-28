@@ -3,13 +3,12 @@ struct Nodo {
   struct Nodo* siguiente;
 };
 
-struct queue {
+struct Queue {
   struct Nodo *primero, *ultimo;
 };
 
-
-struct queue* crearCola() {
-  struct queue* cola = (struct queue*)malloc(sizeof(struct queue));
+struct Queue* crearCola() {
+  struct Queue* cola = (struct Queue*)malloc(sizeof(struct Queue));
 
   cola->primero = cola->ultimo = NULL;
   return cola;
