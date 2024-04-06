@@ -13,12 +13,7 @@ This GitHub repository serves as my digital laboratory, where I explore and deve
 [Limpiar](https://github.com/VeraLaureano/DSA/tree/main/stack/vaciarPila 'View Algorithm') · [POP](https://github.com/VeraLaureano/DSA/tree/main/stack/pop 'View Algorithm') · [PUSH](https://github.com/VeraLaureano/DSA/tree/main/stack/push 'View Algorithm') · [Esta Vacio](https://github.com/VeraLaureano/DSA/tree/main/stack/estaVacia 'View Algorithm') · [Ver Ultimo](https://github.com/VeraLaureano/DSA/tree/main/stack/leerSuperior 'View Algorithm')
 
 ### 4. Queue 
-- [Crear Nodo](https://github.com/VeraLaureano/DSA/tree/main/queue/crearNodo 'Ver Algoritmo')
-- [Crear Cola(queue)](https://github.com/VeraLaureano/DSA/tree/main/queue/crearCola 'Ver Algoritmo')
-- [deQueue](https://github.com/VeraLaureano/DSA/tree/main/queue/dequeue 'Ver Algoritmo')
-- [enQueue](https://github.com/VeraLaureano/DSA/tree/main/queue/enqueue 'Ver Algoritmo')
-- [Ver Primero](https://github.com/VeraLaureano/DSA/tree/main/queue/front 'Ver Algoritmo')
-- [Ver Ultimo](https://github.com/VeraLaureano/DSA/tree/main/queue/rear 'Ver Algoritmo')
+[Crear Nodo](https://github.com/VeraLaureano/DSA/tree/main/queue/crearNodo 'Ver Algoritmo') · [Crear Cola(queue)](https://github.com/VeraLaureano/DSA/tree/main/queue/crearCola 'Ver Algoritmo') · [deQueue](https://github.com/VeraLaureano/DSA/tree/main/queue/dequeue 'Ver Algoritmo') · [enQueue](https://github.com/VeraLaureano/DSA/tree/main/queue/enqueue 'Ver Algoritmo') · [Ver Primero](https://github.com/VeraLaureano/DSA/tree/main/queue/front 'Ver Algoritmo') · [Ver Ultimo](https://github.com/VeraLaureano/DSA/tree/main/queue/rear 'Ver Algoritmo')
 
 ### 5. Binary Trees
 [Crera Raiz](https://github.com/VeraLaureano/DSA/tree/main/trees/crearNodo 'View Algorithm') · [Recorrido Pre Order](https://github.com/VeraLaureano/DSA/tree/main/trees/preOrder 'View Algorith') · [Recorrido In Order](https://github.com/VeraLaureano/DSA/tree/main/trees/inOrder 'View Algorithm') · [Recorrido Post Order](https://github.com/VeraLaureano/DSA/tree/main/trees/postOrder 'View Algorithm') · [Valor Minimo](https://github.com/VeraLaureano/DSA/tree/main/trees/valorMinimo 'View Algorithm') · [Valor Maximo](https://github.com/VeraLaureano/DSA/tree/main/trees/valorMaximo 'View Algorithm') · [Insertar Elemento](https://github.com/VeraLaureano/DSA/tree/main/trees/insertar 'View Algorithm') · [Buscar Elemento](https://github.com/VeraLaureano/DSA/tree/main/trees/buscar 'View Algorithm') · [Borrar Elemento](https://github.com/VeraLaureano/DSA/tree/main/trees/borrarElemento 'View Algorithm') · [Ver Valores en Rango](https://github.com/VeraLaureano/DSA/tree/main/trees/verValoresEnRango 'View Algorithm')
